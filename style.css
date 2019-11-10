@@ -1,0 +1,32 @@
+body 
+	{
+		margin: 0; 
+		background-color: white; 
+		text-align: center;
+	}
+	.cal 
+	{
+		top: 15%;
+		left: 25%;
+		width: 43%;
+		background-color: grey; 
+		text-align: center;
+		position: absolute;
+	}
+	p {
+		font-size: 0px;}
+	td {
+		width: 8vw; height: 10vh; 
+		text-align: center; 
+		font-size: 30px; 
+		font-weight: bold; 
+		color: white; 
+		border: 2px groove white;
+		border-radius: 7px;
+	}
+	td:hover {
+		background-color: lightgrey;}
+	input {
+		width: 100%; height: 100%; border: none; font-size: 25px; font-weight: bold; padding: 0px 5px;}
+#shiftBtn {
+	background-color: green;}
