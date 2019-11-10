@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Scientific Calculator JS</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+<div class="cal">
+<p id=area></p>
+<p id=Answer>0</p>
+<table>
+    <tr>
+    <td colspan=5><input id=result readonly></td>
+    </tr>
+    <tr>
+    <td onclick="funcshift(1)" id=shiftBtn>Shift</td>
+    <td onclick="solve('sin')">sin</td>
+    <td onclick="solve('cos')">cos</td>
+    <td onclick="solve('tan')">tan</td>
+    <td onclick="input('!')">!</td>
+    </tr>
+    <tr>
+    <td onclick="input('^(')">^</td>
+    <td onclick="sqrt()">sqrt</td>
+    <td onclick="leftParen()">(</td>
+    <td onclick="input(')')">)</td>
+    <td onclick="log(1)">log</td>
+    </tr>
+    <tr>
+    <td onclick="input('7')">7</td>
+    <td onclick="input('8')">8</td>
+    <td onclick="input('9')">9</td>
+    <td onclick="del()">&crarr;</td>
+    <td onclick="ac()">AC</td>
+    </tr>
+    <tr>
+    <td onclick="input('4')">4</td>
+    <td onclick="input('5')">5</td>
+    <td onclick="input('6')">6</td>
+    <td onclick="divmul('mult')">&#x00D7;</td>
+    <td onclick="divmul('div')">&#x00F7;</td>
+    </tr>    
+    <tr>
+    <td onclick="input('1')">1</td>
+    <td onclick="input('2')">2</td>
+    <td onclick="input('3')">3</td>
+    <td onclick="input('+')">+</td>
+    <td onclick="input('-')">-</td>
+    </tr>    
+    <tr>
+    <td onclick="input('0')">0</td>
+    <td onclick="input('.')">.</td>
+    <td onclick="piOrE('pi')">&#x03C0;</td>
+    <td onclick="ans()">Ans</td>
+    <td onclick="equal()">=</td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
